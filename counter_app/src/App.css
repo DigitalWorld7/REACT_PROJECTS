@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.counter, .voting {
+  background-color: #60007e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 40%;
+}
+
+.voting-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vote-option {
+  background-color: hsl(269, 100%, 80%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6800a0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  transition: background-color 0.3s;
+}
+.btn{
+  width: 160px;
+}
+button:hover {
+  background-color: #af6dff;
+}
+
+h1, h2, p {
+  margin: 10px 0;
+}
