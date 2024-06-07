@@ -12,12 +12,12 @@ function LoginSignup() {
    const [arr, setArr] = useState([]);
 
    const handleClick = () => {
-       let obj = {
+       let object = {
            username: name,
            email: email,
            pass: password
        };
-       setArr([...arr, obj]);
+       setArr([...arr, object]);
        Swal.fire({
         title: "Signup SucessFull!",
         imageUrl: "https://img.freepik.com/free-vector/privacy-engineering-abstract-concept-illustration_335657-3829.jpg",
